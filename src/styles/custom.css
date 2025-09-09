@@ -1,0 +1,33 @@
+a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 114%;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: #e8e8e8;
+  transition: all 0.3s ease-in-out;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.container {
+  max-width: 1920px;
+  margin-inline: auto;
+  padding-inline: 60px;
+}
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
