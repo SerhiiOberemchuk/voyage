@@ -6,7 +6,7 @@
 
 <svelte:head>
   <link rel="icon" href={favicon} />
-  <link rel="stylesheet" href="/src/app.css" />
+  <link rel="stylesheet" href="/app.css" />
 </svelte:head>
 
 {@render children?.()}

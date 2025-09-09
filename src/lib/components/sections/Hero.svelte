@@ -32,7 +32,7 @@
 <style>
   .section {
     position: relative;
-    background-image: url("$lib/assets/images/herobackgr.webp");
+    background-image: url("/images/herobackgr.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
