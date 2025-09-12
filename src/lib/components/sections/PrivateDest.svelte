@@ -1,7 +1,6 @@
 <script lang="ts">
   import logo from "$lib/assets/logo.svg";
   import { onMount } from "svelte";
-  import Container from "../Container.svelte";
   import { inView } from "$lib/action/inView";
   let iconSVG: SVGElement;
   onMount(() => {

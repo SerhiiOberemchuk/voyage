@@ -1,6 +1,6 @@
 <script lang="ts">
   import Hero from "$lib/components/sections/Hero.svelte";
-  import JoinTheWorld from "$lib/components/sections/JoinTheWorld.svelte";
+  import JoinTheWorld from "$lib/components/sections/join-the-world/JoinTheWorld.svelte";
   import PrivateDest from "$lib/components/sections/PrivateDest.svelte";
   import Footer from "$lib/layout/Footer.svelte";
   import "@fontsource-variable/playfair-display";
