@@ -26,9 +26,6 @@
     <img src={logo} alt="logo" aria-hidden="true" />
     <div use:inView={{ rootMargin: "-50px" }} class="trigger_privat"></div>
     <svg
-      on:visibilitychange={(ev) => {
-        console.log(ev);
-      }}
       class="motion_icon"
       bind:this={iconSVG}
       width="520"

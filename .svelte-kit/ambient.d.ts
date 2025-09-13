@@ -40,9 +40,12 @@ declare module '$env/static/private' {
 	export const EFC_8412_1592913036: string;
 	export const ELECTRON_NO_ASAR: string;
 	export const ELECTRON_RUN_AS_NODE: string;
+	export const FPS_BROWSER_APP_PROFILE_STRING: string;
+	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const HOMEDRIVE: string;
 	export const HOMEPATH: string;
 	export const LOCALAPPDATA: string;
+	export const LOCAL_GIT_DIRECTORY: string;
 	export const LOGONSERVER: string;
 	export const NODE_ENV: string;
 	export const NUMBER_OF_PROCESSORS: string;
@@ -80,7 +83,6 @@ declare module '$env/static/private' {
 	export const VSCODE_PID: string;
 	export const windir: string;
 	export const ZES_ENABLE_SYSMAN: string;
-	export const __COMPAT_LAYER: string;
 }
 
 /**
@@ -124,9 +126,12 @@ declare module '$env/dynamic/private' {
 		EFC_8412_1592913036: string;
 		ELECTRON_NO_ASAR: string;
 		ELECTRON_RUN_AS_NODE: string;
+		FPS_BROWSER_APP_PROFILE_STRING: string;
+		FPS_BROWSER_USER_PROFILE_STRING: string;
 		HOMEDRIVE: string;
 		HOMEPATH: string;
 		LOCALAPPDATA: string;
+		LOCAL_GIT_DIRECTORY: string;
 		LOGONSERVER: string;
 		NODE_ENV: string;
 		NUMBER_OF_PROCESSORS: string;
@@ -164,7 +169,6 @@ declare module '$env/dynamic/private' {
 		VSCODE_PID: string;
 		windir: string;
 		ZES_ENABLE_SYSMAN: string;
-		__COMPAT_LAYER: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BottomText from "./BottomText.svelte";
   import CardBox from "./CardBox.svelte";
 
   const title = "Join the world that only a few know".split(" ");
@@ -12,6 +13,7 @@
   </h2>
   <p class="text">For those who appreciate exclusivity!</p>
   <CardBox />
+  <BottomText />
 </section>
 
 <style>
@@ -22,7 +24,7 @@
     background-position: center;
     background-size: cover;
     padding-top: 118px;
-    padding-bottom: 56px;
+    padding-bottom: 256px;
   }
   .title {
     display: flex;
